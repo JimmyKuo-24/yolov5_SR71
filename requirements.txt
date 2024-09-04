@@ -1,3 +1,11 @@
+gunicorn
+beautifulsoup4==4.12.2  
+django==5.0.6
+jinja2==3.1.4
+whitenoise
+yolov5==6.2.3
+
+
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
 
@@ -9,13 +17,13 @@ Pillow>=7.1.2
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1  # Google Colab version
-pip install torch==1.7.0+cu101 torchvision==0.8.1+cu101 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install torch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0
+torch==1.7.0+cu101 torchvision==0.8.1+cu101 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0
 torch>=1.7.0,!=1.12.0  # https://github.com/ultralytics/yolov5/issues/8395
 torchvision>=0.8.1,!=0.13.0 # https://github.com/ultralytics/yolov5/issues/8395
 tqdm>=4.41.0
 protobuf<4.21.3  # https://github.com/ultralytics/yolov5/issues/8012
-pip install protobuf==3.13.0
+protobuf==3.13.0
 # Logging -------------------------------------
 tensorboard>=2.4.1
 # wandb
